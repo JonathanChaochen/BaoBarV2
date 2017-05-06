@@ -1,0 +1,226 @@
+/*-------------- RESET --------------- */
+
+/*html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+}*/
+
+
+
+/* ------------- LAYOUT -------------*/
+
+
+.carousel {
+    margin-bottom: 15px;
+}
+
+.address-bar {
+    margin-bottom: 15px;
+}
+
+/*header{
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.progress {
+    border-radius: 0px;
+}
+
+#map {
+height: 300px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%
+}
+
+.information {
+    padding: 15px 0;
+}
+
+figcaption {
+    padding: 1em;
+}
+
+/*-------------- TYPOGRAPHY --------------*/
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.location {
+
+}
+
+h3 {
+/*    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+}
+
+/*--------- COLOUR SCHEME & BORDERS -------- */
+
+body {
+  background: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------  NAVIGATION ---------*/
+a {
+
+}
+
+#baolicious_section {
+        font-family: 'Itim', cursive;
+}
+
+/*.navbar-nav {
+    display: flex;
+    justify-content: center;
+}*/
+
+.navbar a{
+    color:rgba(0,0,0,.5)!important;
+    font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2em;
+
+        /*background-color: yellow;*/
+}
+
+
+.navbar a:hover {
+    color: #222!important;
+}
+
+.navbar {
+    background: #eee;
+    border-radius: 1em;
+    margin: 0.5em 0;
+}
+
+.navbar .selected {
+    font-weight: bold;
+    color: #000!important;
+}
+
+/*.navbar-nav{
+    display: flex;
+
+    justify-content: space-around;
+
+}*/
+
+
+
+/*nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+nav{
+    ;
+}
+
+nav li {
+    border-right: 1px solid #fefefe;
+}
+
+
+nav a{
+    display:inline-block;
+    padding:10px;
+}*/
+
+/*#booking {
+    background: #ccc;
+    width: 15em;
+    height: 3em;
+    padding: 1em 0.5em;
+}
+
+#booking-button {
+    background: #eee;
+    width: 15em;
+    height: 3em;
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+}*/
+
+
+/* --------  IMAGES ------- */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#trademark {
+    width: 7em;
+    height: 7em;
+}
+
+#links {
+    /*margin: 0 auto;*/
+}
+
+#links img{
+    width:270px;
+}
+
+.special {
+    display: block;
+    width: 960px;
+    margin:  0 auto;
+}
+/*--------- map ---------*/
+
+#map {
+    width: 100%;
+    height: 100%;
+
+}
+
+/*--------- media ---------*/
+
+
+
+
+
+/*-------------------- MEDIA QUERIES ------------------*/
+
+@media (max-width: 768px) {
+  #map {
+    height: 20em ;
+  }
+}
+
