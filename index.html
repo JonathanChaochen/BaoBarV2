@@ -12,9 +12,10 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
      <link rel="stylesheet" href="css/stylesheet.css">
-     <script src="js/bootstrap.min.js"></script>
+
 
      <title>Bao Bar | Asian Street food</title>
+  </head>
   <body>
   <!-- facebook sdk -->
   <div id="fb-root"></div>
@@ -22,13 +23,13 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
 
 
-  <div class="container">
+  <div class="inner">
       <header class="row  text-center ">
 
         <div class="col-sm-2 col-sm-offset-2">
@@ -43,7 +44,7 @@
           <div id="booking" >
            <a class="btn" href="tel:+64033435588">Bookings 03 343 5588 </a>
           </div>
-              <a href="contact.html" class="btn btn-success">
+              <a id="bookclick" href="contact.html" class="btn btn-success">
                 <div id="booking-button"> Click here to make a booking</div>
               </a>
         </div>
@@ -65,10 +66,9 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
-
           <li><a href="menu.html">Menu</a></li>
-          <li><a href="gallery.html">Baolicious Specials</a></li>
-          <li><a href="baolicious.html">Gallery</a></li>
+          <li><a href="baolicious.html">Baolicious Specials</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contact.html">Contact&amp;Booking</a></li>
         </ul>
 
@@ -83,9 +83,14 @@
 
 
 
-  <main class="container">
+  <main class="inner">
 
-  <section class="pattern"><img src="images/front-window-pattern-Web-final.png"></section>
+  <section class="pattern">
+  <picture>
+    <source media="(min-width: 768px)" srcset="images/front-window-pattern-Web-final.png">
+    <img src="images/front-window-halfline.png" alt="design pattern">
+  </picture>
+  </section>
 
 
       <!-- Carousel   Start-->
@@ -125,7 +130,7 @@
 
       </div>  <!-- Carousel End -->
 
-      <div class="">
+      <div class="story">
         <h3>Story</h3>
         <p>
         Bao Bar is a new fully licensed Eatery that experiments with delicious ingredients to bring you authentic Asian flavours at affordable prices.</p>
@@ -149,54 +154,87 @@
 
           </div>
 
-
-
-      <div class="row no-gutters address-bar">
-
-        <div class="col-xs-12 col-sm-12 col-md-5">
-          <div id="map">
-
-          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6806829359434!2d172.59790831639907!3d-43.529851089836875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318af47e43fbc3%3A0x68357c4a63416248!2sBao+Bar!5e0!3m2!1sen!2snz!4v1493284234838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7399040776495!2d-6.261147484122739!3d53.34791197997939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!3m2!1sen!2sus!4v1462581622087" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <div id="facebookandinstagram" class="row">
+          <div id="facebookpage" class="col-sm-4">
+             <div class="fb-page" data-href="https://www.facebook.com/BaoBarChch/" data-tabs="timeline" data-width="500" data-height="465" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BaoBarChch/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BaoBarChch/">Bao Bar</a></blockquote></div>
           </div>
+
+
+          <div id="instagrampage" class="col-sm-8">
+        <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/69e4ae5348c55b36a388d3efde588268.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+
+           </div>
         </div>
 
-        <div class="text-center d-flex flex-column justify-content-center col-12 col-sm-6 col-md-3 location">
-          <div class="information">
-            <h4>Opening Hours</h4>
-            <p>7 Days 10AM - Late</p>
-          </div>
-          <div class="information">
-            <h4>Location</h4>
-            <p>111a Riccarton Road </p>
-            <p>Chritchurch 8041 </p>
-          </div>
 
-          <div class="information">
-            <h4>Contact Us</h4>
-            <p>Phone: 03 343 5588</p>
-            <p>Email: <a href="mailto:info@baobar.co.nz">info@baobar.co.nz</a> </p>
-          </div>
+
+
+
+
+  <section class="pattern">
+  <picture>
+    <source media="(min-width: 768px)" srcset="images/front-window-pattern-Web-final.png">
+    <img src="images/front-window-halfline.png" alt="design pattern">
+  </picture>
+  </section>
+  </main>
+
+  <footer class="inner">
+    <p>&copy; Bao Bar, 2017</p>
+    <div class="row text-center address-bar">
+
+      <div class="col-sm-4">
+
+      <div id="map">
+
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6806829359434!2d172.59790831639907!3d-43.529851089836875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318af47e43fbc3%3A0x68357c4a63416248!2sBao+Bar!5e0!3m2!1sen!2snz!4v1493284234838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7399040776495!2d-6.261147484122739!3d53.34791197997939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!3m2!1sen!2sus!4v1462581622087" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      </div>
+      </div>
+
+      <div class=" col-sm-4  location">
+        <div class="information">
+          <h4>Location</h4>
+          <p>111a Riccarton Road </p>
+          <p>Chritchurch 8041 </p>
+        </div>
+        <div class="information">
+          <h4>Opening Hours</h4>
+          <p>7 Days 10AM - Late</p>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="fb-page" data-href="https://www.facebook.com/BaobarChch" data-tabs="timeline" data-small-header="false" data-adapt--width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BaobarChch" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BaobarChch">Bao Bar</a></blockquote></div>
+
+        <div class="information">
+          <h4>Contact Us</h4>
+          <p>Phone: 03 343 5588</p>
+          <p>Email: <a href="mailto:info@baobar.co.nz">info@baobar.co.nz</a> </p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="social-media information">
+          <h4>Social Media</h4>
+
+          <a href="mailto:chaochen42@gmail.com"> <img src="images/socia media/emailnew2.png" alt="email"></a>
+
+          <a href="https://www.instagram.com/baobar_chch/" target="_blank"><img src="images/socia media/instagram.png" alt="instgram"></a>
+          <a href="https://www.instagram.com/baobar_chch/" target="_blank"><img src="images/socia media/Twitter-Logo.png" alt="twitter"></a>
+          <a href="https://www.facebook.com/BaoBarChch/" target="_blank"><img src="images/socia media/fb_icon_325x325.png" alt="facebook"></a>
         </div>
 
+        <div class="tripadvisor">
+        <a href="https://www.tripadvisor.co.nz/Restaurant_Review-g255118-d12230838-Reviews-Bao_Bar-Christchurch_Canterbury_Region_South_Island.html"> <img src="images/socia media/tripadvisor.png" alt="email"></a>
+
+        </div>
 
       </div>
 
 
+    </div>
 
+    </footer>
 
-  <section class="pattern"><img src="images/front-window-pattern-Web-final.png"></section>
-  </main>
-
-  <footer class="container">
-    <p>&copy; Bao Bar, 2017</p></footer>
-  </div>  <!--  -->
-
- </div>
 
   <script src="js/map.js"></script>
   <script async defer

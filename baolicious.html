@@ -3,18 +3,19 @@
   <head>
      <meta charset="utf-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name = "description"  content = "Baobar, Specials. Asian Inspired Street Food">
+     <meta name="viewpoint" content="width=device-width, initial-scale=1">
+     <meta name = "description"  content = "Asian Inspired Street Food">
      <link rel="icon" href="images/baobackgroundweb.png"  sizes="45*45">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Itim|Leckerli+One|Oswald|Roboto" rel="stylesheet">
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
      <link rel="stylesheet" href="css/stylesheet.css">
-     <script src="js/bootstrap.min.js"></script>
 
-     <title>Baolicious - Bao Bar </title>
+
+     <title>Baolicious | Special</title>
+  </head>
   <body>
   <!-- facebook sdk -->
   <div id="fb-root"></div>
@@ -22,122 +23,162 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
 
 
-  <div class="container">
-      <header class="row align-items-center text-center justify-content-around">
+  <div class="inner">
+      <header class="row  text-center ">
 
-        <div class="col-sm-6">
-          <img id="trademark" src="images/Logo.jpeg" alt="logo">
+        <div class="col-sm-2 col-sm-offset-2">
+          <img id="trademark" src="images/baobackgroundweb.png" alt="logo">
+        </div>
+        <div  class="col-sm-3">
+          <h1>Bao Bar</h1>
+          <p>Asian Inspired Street Food</p>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-3">
           <div id="booking" >
-           <p class="btn">Bookings 03 343 5588 </p>
+           <a class="btn" href="tel:+64033435588">Bookings 03 343 5588 </a>
           </div>
-              <a href="contact.html" class="btn btn-outline-success">
+              <a id="bookclick" href="contact.html" class="btn btn-success">
                 <div id="booking-button"> Click here to make a booking</div>
               </a>
         </div>
 
       </header> <!-- row -->
-  </div>   <!--  -->
-
-  <div class="container">
-    <nav class="navbar navbar-light  navbar-toggleable-sm" >
-      <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse"
-      data-target="#myNav" aria-controls="myNav" aria-expended="false" aria-label="Toggle Navigation" type="button">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-        <a href="index.html" class="navbar-brand pr-5">Bao Bar</a>
-
-        <div class="collapse navbar-collapse" id="myNav">
-          <div id="navlink" class="navbar-nav justify-content-center">
-            <a href="menu.html" class="nav-item nav-link pr-5">Menu</a>
-            <a href="gallery.html" class="nav-item nav-link pr-5">Gallery</a>
-            <a href="baolicious.html" class="nav-item nav-link pr-5 selected">Baolicious</a>
-            <a href="contact.html" class="nav-item nav-link pr-5">Contact&amp;Booking</a>
-          </div> <!--  navbar-nav -->
-        </div>  <!-- collapse -->
-
-    </nav>
-  </div> <!--  -->
 
 
 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-  <main class="container">
-      <section id="baolicious_section" class="text-center">
-      <br>
-        <img class="special img-fluid img-thumbnail" src="images/Baolicious.jpg" alt="special meal">
-        <figcaption>
-        <p>Next week May 1st: BACK TO SCHOOL SPECIAL!</p>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li class="active"><a href="baolicious.html">Baolicious Specials</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact&amp;Booking</a></li>
+        </ul>
 
-        <p>If you're a current student, drop by next Monday from 6pm and get two Baogers for $10</p>
+      </div>
+    </div>
+  </nav>
 
-        <p>Just present your current student ID to receive the special! One day only!</p>
-
-        </figcaption>
-      </section>
+  </div>    <!-- container  -->
 
 
-      <div class="row no-gutters address-bar">
 
-        <div class="col-12 col-md-5">
-          <div id="map">
 
-<!--           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6806829359434!2d172.59790831639907!3d-43.529851089836875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318af47e43fbc3%3A0x68357c4a63416248!2sBao+Bar!5e0!3m2!1sen!2snz!4v1493284234838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-          </div>
+
+
+  <main class="inner">
+
+  <section class="pattern">
+  <picture>
+    <source media="(min-width: 768px)" srcset="images/front-window-pattern-Web-final.png">
+    <img src="images/front-window-halfline.png" alt="design pattern">
+  </picture>
+  </section>
+
+
+  <section id="baolicious_section" class="text-center">
+  <br>
+    <img class="special img-fluid img-thumbnail" src="images/Baolicious.jpg" alt="special meal">
+    <figcaption>
+    <p>Next week May 1st: BACK TO SCHOOL SPECIAL!</p>
+
+    <p>If you're a current student, drop by next Monday from 6pm and get two Baogers for $10</p>
+
+    <p>Just present your current student ID to receive the special! One day only!</p>
+
+    </figcaption>
+  </section>
+
+
+
+
+
+  <section class="pattern">
+  <picture>
+    <source media="(min-width: 768px)" srcset="images/front-window-pattern-Web-final.png">
+    <img src="images/front-window-halfline.png" alt="design pattern">
+  </picture>
+  </section>
+  </main>
+
+  <footer class="inner">
+    <p>&copy; Bao Bar, 2017</p>
+    <div class="row text-center address-bar">
+
+      <div class="col-sm-4">
+
+      <div id="map">
+
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6806829359434!2d172.59790831639907!3d-43.529851089836875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318af47e43fbc3%3A0x68357c4a63416248!2sBao+Bar!5e0!3m2!1sen!2snz!4v1493284234838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7399040776495!2d-6.261147484122739!3d53.34791197997939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!3m2!1sen!2sus!4v1462581622087" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      </div>
+      </div>
+
+      <div class=" col-sm-4  location">
+        <div class="information">
+          <h4>Location</h4>
+          <p>111a Riccarton Road </p>
+          <p>Chritchurch 8041 </p>
+        </div>
+        <div class="information">
+          <h4>Opening Hours</h4>
+          <p>7 Days 10AM - Late</p>
         </div>
 
-        <div class="text-center d-flex flex-column justify-content-center col-12 col-sm-6 col-md-3 location">
-          <div class="information">
-            <h4>Opening Hours</h4>
-            <p>7 Days 10AM - Late</p>
-          </div>
-          <div class="information">
-            <h4>Location</h4>
-            <p>111a Riccarton Road </p>
-            <p>Chritchurch 8041 </p>
-          </div>
 
-          <div class="information">
-            <h4>Contact Us</h4>
-            <p>Phone: 03 343 5588</p>
-            <p>Email: <a href="mailto:info@baobar.co.nz">info@baobar.co.nz</a> </p>
-          </div>
+        <div class="information">
+          <h4>Contact Us</h4>
+          <p>Phone: 03 343 5588</p>
+          <p>Email: <a href="mailto:info@baobar.co.nz">info@baobar.co.nz</a> </p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="social-media information">
+          <h4>Social Media</h4>
+
+          <a href="mailto:chaochen42@gmail.com"> <img src="images/socia media/emailnew2.png" alt="email"></a>
+
+          <a href="https://www.instagram.com/baobar_chch/" target="_blank"><img src="images/socia media/instagram.png" alt="instgram"></a>
+          <a href="https://www.instagram.com/baobar_chch/" target="_blank"><img src="images/socia media/Twitter-Logo.png" alt="twitter"></a>
+          <a href="https://www.facebook.com/BaoBarChch/" target="_blank"><img src="images/socia media/fb_icon_325x325.png" alt="facebook"></a>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="fb-page" data-href="https://www.facebook.com/BaobarChch" data-tabs="timeline" data-small-header="false" data-adapt--width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BaobarChch" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BaobarChch">Bao Bar</a></blockquote></div>
-        </div>
+        <div class="tripadvisor">
+        <a href="https://www.tripadvisor.co.nz/Restaurant_Review-g255118-d12230838-Reviews-Bao_Bar-Christchurch_Canterbury_Region_South_Island.html"> <img src="images/socia media/tripadvisor.png" alt="email"></a>
 
+        </div>
 
       </div>
 
 
-  </main>
+    </div>
 
+    </footer>
 
-  <footer class="container">
-    <p>&copy; Bao Bar, 2017</p></footer>
-  </div>  <!--  -->
-
- </div>
 
   <script src="js/map.js"></script>
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRjTg9zqspinCIEnqIOkJeQWVX01HQ9J4&callback=initMap">
   </script>
 
-  <script src="js/jquery.slim.min.js"></script>
-  <script src="js/tether.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 
 

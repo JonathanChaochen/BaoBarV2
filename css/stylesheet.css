@@ -28,6 +28,23 @@ main {
 
 /* ------------- LAYOUT -------------*/
 
+.story {
+    padding: 0 1em;
+    margin: 1em auto;
+}
+
+#facebookpage, #instagrampage{
+
+    margin: 0.5em auto;
+}
+
+section{
+    margin: 1em 0;
+}
+
+header {
+    margin-top: 1em;
+}
 
 .carousel {
     margin-bottom: 15px;
@@ -37,17 +54,16 @@ main {
     margin-bottom: 15px;
 }
 
-/*header{
-    display: flex;
-    justify-content: space-around;
-}*/
+#welcome-pic {
+    margin-top: 1em;
+}
 
 .progress {
     border-radius: 0px;
 }
 
-#map {
-height: 300px;
+.inner {
+padding: 0 1em;
 }
 
 iframe {
@@ -63,11 +79,18 @@ figcaption {
     padding: 1em;
 }
 
+#facebookandinstagram {
+    margin-top: 1em;
+    height: 100%;
+
+}
+
+
 /*-------------- TYPOGRAPHY --------------*/
 
 h4 {
     font-size: 1.2em;
-    color: #d9534f;
+    color: #b1d12d;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -79,9 +102,11 @@ h4 {
 
 /*--------- COLOUR SCHEME & BORDERS -------- */
 
+
+
 body {
 
-    background: #000;
+ background: #000;
   /*background:url(../images/Logo.jpeg) no-repeat center fixed;*/
   font-family: Arial, Helvetica, sans-serif;
   color: #eee;
@@ -91,39 +116,42 @@ body {
 .pattern {
     height: 2em;
     /*background:  url("../images/front-window-pattern-Web-final.png") no-repeat center fixed red;*/
-
 }
+
+
 /* ------  NAVIGATION ---------*/
 a {
-        color: #fff;
+  color: #fff;
 }
+
 /*.navbar-nav {
     display: flex;
     justify-content: center;
 }*/
 
-.navbar a{
+/*.navbar a{
     color:rgba(0,0,0,.5)!important;
     font-weight: bold;
     font-size: 1.2em;
-
+}*/
         /*background-color: yellow;*/
-}
+
 
 
 .navbar a:hover {
-    color: #222!important;
+    color: #222;
+    background: #111!important;
 }
 
-.navbar {
+/*.navbar {
     background: #eee;
     border-radius: 1em;
     margin: 0.5em 0;
-}
+}*/
 
 .navbar .selected {
     font-weight: bold;
-    color: #000!important;
+    color: #000;
 }
 
 /*.navbar-nav{
@@ -189,13 +217,21 @@ img {
 }
 
 
+.social-media  img{
+    width: 2em;
+}
+
+.tripadvisor{
+    margin: 2em auto;
+    width: 8em;
+}
 
 
 
 
 #trademark {
-    width: 7em;
-    height: 7em;
+    width: 4em;
+    height: 4em;
 }
 
 #links {
@@ -203,7 +239,7 @@ img {
 }
 
 #links img{
-    width:270px;
+    width:240px;
 }
 
 .special {
@@ -248,14 +284,42 @@ img {
 /*--------- media ---------*/
 
 
+#map {
+    width: 24em;
+    height: 20em;
+    margin: 15px auto;
 
+}
 
 
 /*-------------------- MEDIA QUERIES ------------------*/
 
-@media (max-width: 768px) {
-  #map {
-    height: 20em ;
-  }
+
+
+@media (min-width: 768px) {
+
+    .story {
+        margin: 3em auto;
+    }
+
+
+    .inner {
+        width: 67.5em;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #trademark {
+    width: 7em;
+    height: 100%;
+    }
+
+    #links img{
+        width:230px;
+    }
+
+    #welcome-pic {
+        margin-top: 2em;
+    }
 }
 
