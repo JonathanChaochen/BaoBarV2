@@ -333,9 +333,6 @@ img {
         height:100%;
         font-weight: bold;
         color: #ddd;
-        /*color: #000;*/
-        padding:  0.5em auto;
-
     }
 
     .navlink {
@@ -357,6 +354,7 @@ img {
     }
 
     .navbar-new {
+        margin: 1em 0;
         display: flex;
         justify-content: ;
 
@@ -386,5 +384,48 @@ img {
         display: none;
     }
 
+}
+
+/*-------------------- MEDIA QUERIES ------------------*/
+
+
+
+@media (max-width: 767px) {
+    .home-header.menu-open {
+        background-color: #000;
+    }
+
+    .navbar-new {
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 3em;
+        background-color: #000;
+        z-index: 100;
+    }
+
+    .navbar-new a {
+        display: block;
+        text-decoration: none;
+    }
+
+    .navbar-new a:hover {
+        background: #222;
+        color: #fff;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 0em;
+        right: 0em;
+    }
+
+    .nav1, .nav2, .nav3, .nav4, .nav5 {
+        padding: 1em 0;
+    }
+
+    .navlink {
+        border-bottom: #fff solid 1px;
+    }
 }
 
