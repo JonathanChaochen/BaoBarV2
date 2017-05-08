@@ -285,8 +285,8 @@ img {
 
 
 #map {
-    width: 24em;
-    height: 20em;
+    width: 22em;
+    height: 16em;
     margin: 15px auto;
 
 }
@@ -304,7 +304,7 @@ img {
 
 
     .inner {
-        width: 67.5em;
+        width: 67em;
         margin: 0 auto;
         padding: 0;
     }
@@ -320,6 +320,14 @@ img {
 
     #welcome-pic {
         margin-top: 2em;
+    }
+
+    .open-time {
+        margin-bottom: 2em;
+    }
+
+    .tripadvisor{
+        margin: 3em auto 2em;
     }
 }
 
