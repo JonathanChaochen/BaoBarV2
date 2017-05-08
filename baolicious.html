@@ -17,19 +17,8 @@
      <title>Baolicious | Special</title>
   </head>
   <body>
-  <!-- facebook sdk -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 
-
-
-  <div class="inner">
+  <div class="inner innermobile">
       <header class="row  text-center ">
 
         <div class="col-sm-2 col-sm-offset-2">
@@ -53,28 +42,23 @@
 
 
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+      <div class="home-header">
+        <div id="mobile-menu">
+                        <img class="menu-btn" src="images/icon-white/list-menu.svg" alt="Menu Open">
+                        <img class="menu-btn" src="images/icon-white/close.svg" alt="Menu Close" style="display:none;">
+        </div>
 
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li class="active"><a href="baolicious.html">Baolicious Specials</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact&amp;Booking</a></li>
-        </ul>
 
+        <div class="navbar-new text-center">
+
+          <a href="index.html" class="navlink nav1">Home</a>
+          <a href="menu.html" class="navlink nav2">Menu</a>
+          <a href="baolicious.html" class="navlink nav3 select">Baolicious Specials</a>
+          <a href="gallery.html" class="navlink nav4">Gallery</a>
+          <a href="contact.html"  class="nav5">Contact &amp; Booking</a>
+
+        </div>
       </div>
-    </div>
-  </nav>
 
   </div>    <!-- container  -->
 
@@ -123,7 +107,11 @@
     <div class="row text-center address-bar">
 
       <div class="col-sm-4">
-
+      <div class="information">
+        <h4>Location</h4>
+        <p>111a Riccarton Road </p>
+        <p>Chritchurch 8041 </p>
+      </div>
       <div id="map">
 
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.6806829359434!2d172.59790831639907!3d-43.529851089836875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d318af47e43fbc3%3A0x68357c4a63416248!2sBao+Bar!5e0!3m2!1sen!2snz!4v1493284234838" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
@@ -132,12 +120,8 @@
       </div>
 
       <div class=" col-sm-4  location">
-        <div class="information">
-          <h4>Location</h4>
-          <p>111a Riccarton Road </p>
-          <p>Chritchurch 8041 </p>
-        </div>
-        <div class="information">
+
+        <div class="information open-time">
           <h4>Opening Hours</h4>
           <p>7 Days 10AM - Late</p>
         </div>
