@@ -30,7 +30,7 @@ main {
 
 .story {
     padding: 0 1em;
-    margin: 1em auto;
+    margin: 2em auto;
 }
 
 #facebookpage, #instagrampage{
@@ -97,6 +97,15 @@ h4 {
 
 h2 {
     letter-spacing: 6px;
+    /*font-weight: bold;*/
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.story p {
+    font-size: 1.1em;
 }
 
 .restaurant p {
@@ -381,6 +390,10 @@ img {
 
 
 @media (max-width: 767px) {
+
+    #email-form.col-sm-4{
+        padding: 0.5em 2em;
+    }
 
     #links img{
         width: 49%;
