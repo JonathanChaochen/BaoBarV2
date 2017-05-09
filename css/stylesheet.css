@@ -130,13 +130,13 @@ body {
 
 
 .btn-success {
- background:  url(../images/navabr/navbar12.jpg) center bottom repeat-x;
+ background:  url(../images/navabr/navbar9.jpg) center bottom repeat-x;
  background-size: auto 100%;
  border: 0px;
 }
 
 .btn-success:hover {
- background:  url(../images/navabr/navbar11.png) center bottom repeat-x;
+ background:  url(../images/navabr/navbar12.jpg) center bottom repeat-x;
  background-size: auto 100%;
 }
 
@@ -222,7 +222,8 @@ img {
 }
 
 #links img{
-    width:240px;
+    width:260px;
+    margin-bottom: 4px;
 }
 
 .special {
@@ -380,6 +381,11 @@ img {
 
 
 @media (max-width: 767px) {
+
+    #links img{
+        width: 49%;
+    }
+
     .home-header.menu-open {
         background-color: #000;
     }
