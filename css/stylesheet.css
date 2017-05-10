@@ -85,6 +85,10 @@ figcaption {
 
 }
 
+.special-section figcaption{
+    padding: 0 6em ;
+}
+
 
 
 /*-------------- TYPOGRAPHY --------------*/
@@ -370,6 +374,12 @@ img {
         background-size: auto 100%;
     }
 
+    /* baolicious */
+
+    .special-section {
+        padding: 0 2em ;
+    }
+
 
 
     /* --- mobile  menu---- */
@@ -455,6 +465,10 @@ img {
 
     #special-pic1 {
         margin-bottom: 2em;
+    }
+
+    .special-section figcaption{
+        padding: 0 2em ;
     }
 }
 
