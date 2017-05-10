@@ -330,7 +330,7 @@ img {
         width:100%;
         height:100%;
         font-weight: bold;
-        color: #ddd;
+        color: #fff;
     }
 
     .navlink {
@@ -365,7 +365,7 @@ img {
     }
 
     .navbar-new a:hover , .select{
-        color: #fff;
+        color: #eee;
         background: url(../images/navabr/navbar4.png) center bottom repeat-x;
         background-size: auto 100%;
     }
@@ -417,6 +417,7 @@ img {
 
     .navbar-new a {
         color: #eee;
+        font-weight: bold;
         display: block;
         text-decoration: none;
     }
@@ -444,7 +445,7 @@ img {
         padding: 0;
     }
 
-    .menu-btn:hover {
+    .menu-btn: hover {
         background: #333;
     }
 
