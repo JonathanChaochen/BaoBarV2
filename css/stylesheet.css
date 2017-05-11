@@ -191,14 +191,13 @@ a {
 
 
 
-/*#booking {
-    background: #ccc;
-    width: 15em;
-    height: 3em;
-    padding: 1em 0.5em;
+#booking {
+
+   margin: 0.5em 0 0.7em 0;
+
 }
 
-#booking-button {
+/*#booking-button {
     background: #eee;
     width: 15em;
     height: 3em;
